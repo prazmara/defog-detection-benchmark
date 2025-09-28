@@ -35,7 +35,7 @@ Our experiments rely on the Foggy Cityscapes dataset. Please download it from th
 
 ### Running the code
 
-Each folder contains scripts to run the respective defogging methods, as well as evaluation scripts for object detection and segmentation. Please refer to the README files within each folder for specific instructions. As an example for Dehazeformer, see [evaluation README](./WACV/README.md).
+Each folder contains scripts to run the respective defogging methods, as well as evaluation scripts for object detection and segmentation. Please refer to the README files within each folder for specific instructions. As an example for Dehazeformer, see [evaluation README](./eval/object_detection//README.md).
 
 
 <!-- 
