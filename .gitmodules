@@ -1,0 +1,3 @@
+[submodule "eval/object_detection/citytococo"]
+	path = eval/object_detection/citytococo
+	url = https://github.com/TillBeemelmanns/cityscapes-to-coco-conversion.git

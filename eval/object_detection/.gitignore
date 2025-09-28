@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+*.pt
+*.mdc
+*.DS_Store
+/models
+*txt
+/loganalysis
+citytococo/data
+citytococo/assets
