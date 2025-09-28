@@ -3,9 +3,9 @@
 <!--- TODO: Add paper link --->This is the official implementation for the WACV 2026 paper, "From Filters to VLMs: Benchmarking Defogging Methods through Object Detection and Segmentation Performance." Our work provides a comprehensive benchmark for evaluating how various defogging methods impact the performance of downstream object detection and segmentation tasks.
 
 <p align="center">
-  <img src="data_foggy/control_gs-009718_e-000086_b-000000.png" width="800" alt="Qualitative comparison of defogging methods"> <!--- TODO: Upload one of the result images and replace this link --->
+  <img src="assets/defog_example.png" width="800" alt="Qualitative comparison of defogging methods"> <!--- TODO: Upload one of the result images and replace this link --->
   <br>
-  <em style="display: block; text-align: center;">Qualitative comparison showing the original foggy image (left) and the outputs from various defogging methods.</em>
+  <em style="display: block; text-align: center;">Qualitative comparison showing the ground truth (left) and the foggy image (center), with the defogged output (right).</em>
 </p>
 
 ## Overview
@@ -31,7 +31,8 @@
 
 ### Dataset
 
-Our experiments rely on the Foggy Cityscapes dataset. Please download it from the official source and place it in the data/ directory.
+Our experiments rely on the Foggy Cityscapes dataset. Please download it from the official source and place it according to each method's requirements. [Link to Foggy Cityscapes dataset.](https://www.cityscapes-dataset.com/dataset-overview/)
+
 
 ### Running the code
 
