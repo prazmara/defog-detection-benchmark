@@ -1,5 +1,5 @@
 export MODEL_DIR="stabilityai/stable-diffusion-xl-base-1.0"
-export OUTPUT_DIR="/projects/nullanet/experiments/cityscape/saved_models_xl"
+export OUTPUT_DIR="path/to/save/checkpoints"
 
 accelerate launch train_controlnet.py \
  --pretrained_model_name_or_path=$MODEL_DIR \
