@@ -13,7 +13,7 @@ from PIL import Image
 
 
 COT_PROMPT = (
-    "Remove fog, mist, and atmospheric haze. Produce a crystal-clear image with sharp object boundaries "
+    "Remove fog step by step, mist, and atmospheric haze. Produce a crystal-clear image with sharp object boundaries "
     "and high local contrast. Ensure cars, pedestrians, traffic signs, and buildings are distinctly visible "
     "with accurate shapes, edges, and textures. Preserve natural lighting and realistic colors. "
     "Photo-realistic; optimized for object detection."
