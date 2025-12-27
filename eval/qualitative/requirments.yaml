@@ -1,0 +1,19 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - aiohttp
+  - httpx
+  - requests
+  - pydantic
+  - python-dotenv
+  - google-genai
+  - pillow
+  - pip 
+  - opencv
+  - pandas
+  - numpy
+  - scikit-image
+  - matplotlib
+  - pip:
+    - openai
